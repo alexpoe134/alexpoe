@@ -1,6 +1,6 @@
 function buttonClick(){
   $.ajax({
-    url: 'http://www.omdbapi.com/?s=' + encodeURI(document.getElementById("search").value) + '&apikey=c0fc1fcc',
+    url: 'https://www.omdbapi.com/?s=' + encodeURI(document.getElementById("search").value) + '&apikey=c0fc1fcc',
     dataType: 'json',
     type: 'get',
     cache: false,
