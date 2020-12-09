@@ -13,3 +13,6 @@ a:hover{
   transition: all 500ms;
   transform: scale(1.1);
 }
+.twitch a{
+  text-decoration: underline;
+}
