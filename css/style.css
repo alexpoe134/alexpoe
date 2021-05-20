@@ -9,6 +9,7 @@ a{
   text-decoration:none;
 }
 a:hover{
-  transition: all 500ms;
-  transform: scale(1.1);
+  display:inline-block;
+  transition:all 500ms;
+  transform:scale(1.1);
 }
